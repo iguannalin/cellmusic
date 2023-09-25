@@ -1,0 +1,28 @@
+:root {
+  --main-bg-color: rgb(35, 35, 35);
+  --main-text-color: #f9faffde;
+  --shadow-color: #858ebc;
+}
+
+html {
+  display: block;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  background-color: var(--main-bg-color);
+  height: 100vh;
+  font-size: 18px;
+  cursor: pointer;
+  text-shadow: #03146b -2px 2px 8px;
+}
+#reveal {
+  text-shadow: var(--shadow-color) -2px 2px 8px;
+  color: var(--main-text-color);
+  font-size: 24px;
+  margin-bottom: 12px;
+}
